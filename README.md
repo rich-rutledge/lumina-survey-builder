@@ -8,8 +8,18 @@
 * Beginning of managing the global application data
 * Content of the page header including buttons and binding to the project data (name)
 
+## Demonstrated
+
+* Understanding of Vue components and data binding
+* Understanding of Vue project global state management
+* Understanding of Tailwind css
+* Ability to architect frontend applications
+
 ## Next Steps
 
+* The header component is too large and should be broken up
+  * Step 1 - put the svg icons in their own components
+  * Step 2 if necessary - begin creating components for icon buttons and regular buttons, since they are reused frequently in the header component as well as other parts of the app
 * Component library - tailwindUI?
   * Needed for
     * fully-functioning buttons (hover states, mouse-down/up states, etc)
